@@ -75,7 +75,7 @@ public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
         // 계정이 사용 가능한지 확인하는 로직
-        return false; // true -> 사용 가능
+        return true; // true -> 사용 가능
     }
 
 }
